@@ -5,7 +5,7 @@
 
 ## Objetivo
 Repositório dedicado a aprender desenvolvimento Full Stack com Laravel, armazenando exercícios práticos e acompanhando minha evolução como desenvolvedor.
-Dia 1 - Concluído - 🎉 - Node.js e npm instalados e funcionando
+## Dia 1 - Concluído - 🎉 - Node.js e npm instalados e funcionando
 
 Git instalado e identidade configurada
 
@@ -26,7 +26,7 @@ Remoto origin configurado
 Primeiro push realizado com sucesso
 
 
-Dia 2 -  concluído! - 🎉
+## Dia 2 -  concluído! - 🎉
 Você praticou os conceitos principais:
 - Variáveis com const e let.
 - Tipos de dados e conversões.
