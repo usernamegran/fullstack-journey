@@ -7,23 +7,15 @@
 Repositório dedicado a aprender desenvolvimento Full Stack com Laravel, armazenando exercícios práticos e acompanhando minha evolução como desenvolvedor.
 ## Dia 1 - Concluído - 🎉 - Node.js e npm instalados e funcionando
 
-Git instalado e identidade configurada
-
-SSH configurado para o GitHub
-
-Pasta do projeto criada e aberta no VS Code
-
-README.md criado com objetivo e data de início
-
-Repositório Git inicializado
-
-Primeiro commit criado
-
-Branch principal renomeada para main
-
-Remoto origin configurado
-
-Primeiro push realizado com sucesso
+- Git instalado e identidade configurada
+- SSH configurado para o GitHub
+- Pasta do projeto criada e aberta no VS Code
+- README.md criado com objetivo e data de início
+- Repositório Git inicializado
+- Primeiro commit criado
+- Branch principal renomeada para main
+- Remoto origin configurado
+- Primeiro push realizado com sucesso
 
 
 ## Dia 2 -  concluído! - 🎉
@@ -35,3 +27,9 @@ Você praticou os conceitos principais:
 - Operador ternário.
 - switch, case, break e default.
 
+## Dia 3 concluído! 🎉
+Você praticou:
+- Laços for e condições de repetição.
+- Funções com parâmetros e return.
+- Acumuladores com soma += i.
+- Sequência de Fibonacci e atualização de variáveis.
