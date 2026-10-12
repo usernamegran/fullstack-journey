@@ -50,3 +50,59 @@ Praticado:
 - Filtragem de dados com filter().
 - Transformação de dados com map().
 - Encadeamento de métodos (method chaining).
+
+## 🧮 Projeto: Calculadora CLI - Desafio_1
+
+### Objetivo
+Desenvolver uma calculadora executada no terminal utilizando JavaScript e Node.js, com interação por perguntas e respostas.
+
+### Funcionalidades
+- Solicita ao usuário a operação matemática desejada.
+- Recebe dois números pelo terminal.
+- Realiza as operações de:
+  - Adição (`+`)
+  - Subtração (`-`)
+  - Multiplicação (`*`)
+  - Divisão (`/`)
+- Valida entradas numéricas.
+- Rejeita entradas vazias ou contendo apenas espaços.
+- Impede a divisão por zero.
+- Informa quando a operação selecionada é inválida.
+- Encerra a interface do terminal após o processamento.
+
+### Tecnologias utilizadas
+- JavaScript
+- Node.js
+- Módulo nativo `readline`
+
+### Como executar
+
+**Pré-requisito:** ter o Node.js instalado.
+
+1. Abra o terminal na pasta do projeto.
+2. Execute o comando:
+
+   ```bash
+   node .\Desafio_1\calculadora.js
+   ```
+
+3. Escolha a operação matemática solicitada.
+4. Digite o primeiro e o segundo número.
+5. Confira o resultado no terminal.
+
+### Testes realizados
+- Soma: `10 + 5 = 15`
+- Subtração: `-5 - 2 = -7`
+- Validação de entrada não numérica.
+- Rejeição de entradas vazias ou com espaços.
+- Tratamento de divisão por zero.
+- Tratamento de operação inválida.
+
+### Aprendizados
+- Importação de módulos nativos com `require()`.
+- Entrada e saída de dados com `readline`.
+- Uso de callbacks e arrow functions.
+- Conversão de strings para números com `Number()`.
+- Condicionais e estruturas `switch/case`.
+- Validação de dados e tratamento de erros.
+- Encerramento da interface com `rl.close()`.
