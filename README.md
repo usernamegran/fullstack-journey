@@ -34,7 +34,7 @@ Praticado:
 - Acumuladores com soma += i.
 - Sequência de Fibonacci e atualização de variáveis.
 
-## Dia 4 concluído! 
+## Dia 4 concluído! 🎉
 
 Praticado:
 - Criação e acesso a arrays usando índices.
@@ -181,3 +181,42 @@ O projeto foi desenvolvido de forma incremental, implementando e testando cada f
 **Projeto:** Full Stack Journey  
 **Desafio:** 2 — Todo List em Node.js  
 **Status:** Concluído e testado.
+
+
+## Dia 7 - concluído! 🎉
+
+Projeto prático
+
+Criação de uma página HTML para cadastro de alunos de uma academia.
+
+Arquivos:
+
+Dia_7/index.html
+
+Dia_7/script.js
+
+O que aprendi na prática
+
+Criar a estrutura de uma página HTML.
+
+Conectar um arquivo JavaScript externo à página.
+
+Capturar o envio de um formulário.
+
+Impedir o comportamento padrão do navegador.
+
+Ler e validar o valor de um campo de texto.
+
+Exibir mensagens dinamicamente na página.
+
+Identificar e corrigir um problema causado pela ordem de carregamento do script.
+
+Próximos passos
+
+Aprimorar a validação do formulário.
+
+Estudar CSS para melhorar a aparência da página.
+
+Aprender a enviar dados para um servidor e persistir cadastros em um banco de dados.
+
+Observação: o cadastro desenvolvido nesta etapa é apenas uma simulação no navegador; os dados ainda não são armazenados em um banco de dados.
