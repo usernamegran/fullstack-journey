@@ -220,3 +220,69 @@ Estudar CSS para melhorar a aparência da página.
 Aprender a enviar dados para um servidor e persistir cadastros em um banco de dados.
 
 Observação: o cadastro desenvolvido nesta etapa é apenas uma simulação no navegador; os dados ainda não são armazenados em um banco de dados.
+
+## Dia 7+ — Strings e manipulação de texto
+
+**Trilha:** Fundamentos da Web & Programação — Semana 2  
+**Tema:** Lógica II, algoritmos e resolução de problemas  
+**Status:** Concluído
+
+### Objetivos
+- [x] Praticar operações comuns de manipulação de strings.
+- [x] Formatar nomes com maiúsculas e minúsculas.
+- [x] Inverter uma string.
+- [x] Localizar e contar vogais.
+- [x] Substituir palavras em um texto.
+- [x] Praticar depuração e correção de erros.
+
+### Métodos estudados
+
+| Método | Finalidade |
+|---|---|
+| `split()` | Divide uma string em partes. |
+| `join()` | Junta elementos em uma string. |
+| `includes()` | Verifica se um trecho está presente. |
+| `slice()` | Extrai parte de uma string. |
+| `replace()` | Substitui parte de um texto. |
+| `trim()` | Remove espaços das extremidades. |
+| `toUpperCase()` | Converte letras para maiúsculas. |
+| `toLowerCase()` | Converte letras para minúsculas. |
+| `reverse()` | Inverte a ordem dos elementos de um array. |
+| `match()` | Localiza correspondências usando expressões regulares. |
+| `map()` | Transforma os elementos de um array. |
+
+### Exercícios realizados
+
+- **Formatação de nomes:** transformar `mARIA da silva` em `Maria Da Silva`, removendo espaços extras.
+- **Inversão de string:** transformar `fullstack` em `kcatslluf`.
+- **Busca de vogais:** localizar vogais usando `match()` e praticar verificações com `includes()`.
+- **Busca sem diferenciar maiúsculas e minúsculas:** combinar `toLowerCase()` com `includes()`.
+- **Substituição de texto:** transformar `A academia é pequena` em `A academia é moderna`.
+
+### Conceitos aprendidos
+- Encadear métodos para transformar strings.
+- Separar palavras com `split()` e reuni-las com `join()`.
+- Usar expressões regulares, como `/\s+/`, para separar palavras por um ou mais espaços.
+- Entender que strings são imutáveis e que seus métodos retornam novos valores.
+- Identificar erros como `TypeError` e corrigir a causa em vez de apenas alterar o resultado.
+- Diferenciar os comportamentos de `split()` e `join()`.
+
+### Comandos praticados
+
+Executar JavaScript diretamente no terminal:
+
+```bash
+node -e "console.log('dev fullstack'.split(' ').map(w=>w[0].toUpperCase()+w.slice(1)).join(' '))"
+```
+
+**Resultado esperado:**
+
+```text
+Dev Fullstack
+```
+
+### Próximos passos
+- Continuar praticando strings e arrays.
+- Aplicar os métodos em validações de formulários.
+- Integrar os conhecimentos de JavaScript com HTML e futuramente APIs.
+
