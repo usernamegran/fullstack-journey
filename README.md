@@ -286,3 +286,66 @@ Dev Fullstack
 - Aplicar os métodos em validações de formulários.
 - Integrar os conhecimentos de JavaScript com HTML e futuramente APIs.
 
+## Dia 8 — Algoritmos básicos
+
+**Trilha:** Fundamentos da Web & Programação  
+**Semana:** 2  
+**Tema:** Lógica II + algoritmos e resolução de problemas  
+**Status:** Em andamento
+
+### Objetivos do dia
+
+- Implementar busca binária.
+- Implementar o algoritmo de ordenação Bubble Sort.
+- Comparar o Bubble Sort com o método `.sort()` do JavaScript.
+- Compreender, de forma introdutória, a notação Big O.
+
+### Conceitos estudados
+
+| Conceito | Complexidade | Descrição |
+|---|---|---|
+| Busca linear | O(n) | Percorre os elementos até encontrar o alvo. |
+| Busca binária | O(log n) | Divide as possibilidades pela metade; exige lista ordenada. |
+| Bubble Sort | O(n²) | Compara elementos vizinhos e troca suas posições quando necessário. |
+| `.sort()` | Depende da implementação | Método nativo do JavaScript para ordenar elementos. |
+| Big O | — | Notação utilizada para descrever como o custo de um algoritmo cresce com a entrada. |
+
+### Exercícios realizados
+
+- [x] Implementação da busca binária em `Dia_8/busca.js`.
+- [x] Utilização dos limites `inicio` e `fim` para reduzir o espaço de busca.
+- [x] Identificação do índice retornado pela busca e tratamento do retorno `-1`.
+- [x] Construção da lógica do Bubble Sort com dois laços `for`.
+- [x] Comparação de elementos vizinhos utilizando `j` e `j + 1`.
+- [x] Troca de elementos com desestruturação de arrays.
+- [x] Comparação conceitual entre Bubble Sort e `.sort((a, b) => a - b)`.
+- [x] Estudo introdutório de O(n), O(log n) e O(n²).
+
+### Comandos utilizados
+
+Executar a busca binária:
+
+```bash
+node Dia_8/busca.js
+```
+
+Executar a ordenação, após salvar o exercício:
+
+```bash
+node Dia_8/bubblesort.js
+```
+
+### Aprendizados
+
+- A busca binária utiliza a estratégia de dividir para conquistar.
+- Uma lista precisa estar ordenada para que a busca binária descarte metades com segurança.
+- O Bubble Sort organiza elementos por meio de comparações e trocas entre vizinhos.
+- O `.sort()` pode ordenar números numericamente com um comparador, como `(a, b) => a - b`.
+- A complexidade ajuda a avaliar como o trabalho de um algoritmo aumenta conforme a quantidade de dados cresce.
+
+### Próximos passos
+
+- Finalizar e testar a função `bubbleSort(lista)`.
+- Garantir que o Bubble Sort trabalhe com uma cópia, preservando a lista original.
+- Comparar os resultados dos dois métodos de ordenação.
+- Revisar os conceitos antes de avançar para o próximo dia.
