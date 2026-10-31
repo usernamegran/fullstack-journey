@@ -509,6 +509,16 @@ node Dia_8/bubblesort.js
 - Links com `href="#id"` apontam para elementos que possuem o identificador correspondente.
 - A validação do W3C ajuda a identificar problemas na estrutura do HTML.
 
+
+## Dia 13 — CSS: seletores e box model
+
+- Prática com seletores de classe, ID, descendente e atributo.
+- Estudo de margin, padding, border e box-sizing.
+- Diferença entre content-box e border-box.
+- Teste de especificidade e cascata do CSS.
+- Exercício prático: estilização de cartões da Academia.
+
+
 ---
 
 # Objetivo de aprendizagem

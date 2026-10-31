@@ -1,0 +1,22 @@
+/* Define o cálculo das caixas */
+* {
+  box-sizing: border-box;
+}
+
+/* Seleciona o cartão pela classe */
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 20px;
+}
+
+/* Seleciona o título pelo ID do artigo */
+#titulo {
+  color: blue;
+}
+
+/* Seleciona inputs pelo atributo */
+input[type="text"] {
+  padding: 8px;
+}
