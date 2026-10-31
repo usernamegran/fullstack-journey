@@ -1,0 +1,18 @@
+/* Define as regiões da página */
+.pagina {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 70px 1fr 50px;
+  grid-template-areas:
+    "header header"
+    "sidebar conteudo"
+    "footer footer";
+  gap: 12px;
+  min-height: 100vh;
+}
+
+/* Associa cada elemento à sua região */
+header  { grid-area: header; }
+aside   { grid-area: sidebar; }
+main    { grid-area: conteudo; }
+footer  { grid-area: footer; }

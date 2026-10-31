@@ -528,6 +528,15 @@ node Dia_8/bubblesort.js
 - Prática interativa com Flexbox Froggy.
 - Exercício prático: layout de planos da Academia.
 
+## Dia 15 — CSS Grid
+
+- Estudo de layouts bidimensionais com CSS Grid.
+- Prática com grid-template-columns e grid-template-rows.
+- Utilização de gap para espaçamento entre elementos.
+- Posicionamento de elementos com grid-area.
+- Criação de layout com header, sidebar, conteúdo e footer.
+- Prática interativa com Grid Garden.
+- Exercício prático: layout de página para a Academia.
 
 ---
 
