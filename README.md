@@ -450,6 +450,65 @@ node Dia_8/bubblesort.js
 - O HTTPS utiliza TLS para proteger a comunicação.
 - Uma resposta GET pode conter o HTML da página, mas outros recursos, como CSS, JavaScript e imagens, podem exigir requisições adicionais.
 
+
+## Dia 12 — HTML semântico
+
+**Status:** Concluído.
+
+### Objetivos
+
+- Estruturar páginas utilizando elementos HTML semânticos.
+- Compreender a importância da semântica para SEO e acessibilidade.
+- Construir formulários com campos identificados corretamente.
+- Validar a estrutura HTML utilizando o W3C Validator.
+
+### Conteúdos estudados
+
+- Elementos semânticos:
+  - `header`: cabeçalho.
+  - `nav`: navegação.
+  - `main`: conteúdo principal.
+  - `section`: agrupamento de conteúdo por tema.
+  - `article`: conteúdo independente.
+  - `footer`: rodapé.
+- Formulários HTML:
+  - `label`: identificação dos campos.
+  - `input`: entrada de dados.
+  - `button`: execução de ações.
+- Atributos `id`, `for`, `name` e `required`.
+- Navegação interna utilizando âncoras (`href`).
+- SEO e acessibilidade.
+- Validação de HTML pelo W3C.
+
+### Atividades realizadas
+
+- [x] Criação da pasta `Dia_12`.
+- [x] Criação do arquivo `Dia_12/index.html`.
+- [x] Construção de uma página para a Academia ELITE.
+- [x] Utilização de elementos HTML semânticos.
+- [x] Criação de seções e artigos para apresentar planos.
+- [x] Construção de formulário de cadastro.
+- [x] Associação de `label` e `input`.
+- [x] Correção de link de navegação interna.
+- [x] Execução de servidor local com `npx serve .`.
+- [x] Validação do documento no W3C Validator, sem erros ou avisos.
+
+### Comandos e ferramentas praticados
+
+| Comando/ferramenta | Finalidade |
+|---|---|
+| `npx serve .` | Inicia um servidor HTTP local para visualizar a página. |
+| W3C Validator | Verifica a conformidade da marcação HTML. |
+
+### Aprendizados
+
+- HTML semântico atribui significado aos elementos da página.
+- A organização semântica contribui para SEO e acessibilidade.
+- `section` agrupa conteúdos relacionados, enquanto `article` representa conteúdo independente.
+- O atributo `for` do `label` deve corresponder ao `id` do campo.
+- Links com `href="#id"` apontam para elementos que possuem o identificador correspondente.
+- A validação do W3C ajuda a identificar problemas na estrutura do HTML.
+
 ---
 
 # Objetivo de aprendizagem
