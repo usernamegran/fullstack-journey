@@ -349,3 +349,39 @@ node Dia_8/bubblesort.js
 - Garantir que o Bubble Sort trabalhe com uma cópia, preservando a lista original.
 - Comparar os resultados dos dois métodos de ordenação.
 - Revisar os conceitos antes de avançar para o próximo dia.
+
+
+## Dia 9 — Recapitulação com mini-desafios
+
+**Semana 2:** Lógica II + algoritmos e resolução de problemas
+
+**Meta:** Consolidar os conhecimentos sem consultar soluções anteriores.
+
+### Exercícios realizados
+
+- [x] Contar números pares em um array usando `for`, `if` e `%`.
+- [x] Encontrar o maior número de um array, incluindo números negativos.
+- [x] Remover elementos duplicados usando `includes()` e `push()`.
+- [x] Contar a frequência dos elementos utilizando objetos.
+- [x] Criar o arquivo `duvidas.md`.
+
+### Conceitos revisados
+
+- Funções e parâmetros.
+- Laços de repetição (`for`).
+- Estruturas condicionais (`if/else`).
+- Operador módulo (`%`).
+- Manipulação de arrays.
+- Métodos `includes()` e `push()`.
+- Objetos e propriedades dinâmicas.
+- Contadores e acumuladores.
+- Comparação de valores e tratamento de números negativos.
+
+### Exercism
+
+- [ ] Resolver o exercício `two-fer`.
+- [ ] Resolver um segundo desafio da trilha JavaScript.
+
+**Observação:** Atividades pendentes devido ao bloqueio da CLI do Exercism pelo Windows Device Guard.
+
+**Status:** Recapitulação concluída; desafios externos pendentes.
