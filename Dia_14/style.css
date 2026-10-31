@@ -1,0 +1,19 @@
+/* Organiza o cabeçalho em uma linha */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Organiza os cards lado a lado */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Centraliza conteúdo nos cards */
+.cards article {
+  padding: 20px;
+  border: 1px solid black;
+}

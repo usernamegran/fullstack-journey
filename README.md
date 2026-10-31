@@ -484,7 +484,7 @@ node Dia_8/bubblesort.js
 
 - [x] Criação da pasta `Dia_12`.
 - [x] Criação do arquivo `Dia_12/index.html`.
-- [x] Construção de uma página para a Academia ELITE.
+- [x] Construção de uma página para a Academia.
 - [x] Utilização de elementos HTML semânticos.
 - [x] Criação de seções e artigos para apresentar planos.
 - [x] Construção de formulário de cadastro.
@@ -517,6 +517,16 @@ node Dia_8/bubblesort.js
 - Diferença entre content-box e border-box.
 - Teste de especificidade e cascata do CSS.
 - Exercício prático: estilização de cartões da Academia.
+
+## Dia 14 — Flexbox
+
+- Estudo de display: flex e dos eixos principal e transversal.
+- Prática com justify-content, align-items e gap.
+- Criação de cabeçalho com elementos alinhados horizontalmente.
+- Organização de cards em linha.
+- Centralização horizontal e vertical com Flexbox.
+- Prática interativa com Flexbox Froggy.
+- Exercício prático: layout de planos da Academia.
 
 
 ---
