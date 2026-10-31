@@ -1,69 +1,102 @@
-# Jornada Full Stack Developer Laravel
+# Jornada Full Stack Developer — Laravel
 
-## Data de início
-10/10/2026
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow)
+![Node.js](https://img.shields.io/badge/Node.js-24.x-green)
+![Git](https://img.shields.io/badge/Git-Versionamento-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-black)
+![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-blue)
 
-## Objetivo
-Repositório dedicado a aprender desenvolvimento Full Stack com Laravel, armazenando exercícios práticos e acompanhando minha evolução como desenvolvedor.
-## Dia 1 - Concluído - 🎉 - Node.js e npm instalados e funcionando
-Praticado:
-- Git instalado e identidade configurada
-- SSH configurado para o GitHub
-- Pasta do projeto criada e aberta no VS Code
-- README.md criado com objetivo e data de início
-- Repositório Git inicializado
-- Primeiro commit criado
-- Branch principal renomeada para main
-- Remoto origin configurado
-- Primeiro push realizado com sucesso
+## Sobre o projeto
 
+Repositório dedicado à minha jornada de aprendizado em desenvolvimento Full Stack, com foco futuro em PHP e Laravel.
 
-## Dia 2 -  concluído! - 🎉
-Praticado:
-- Variáveis com const e let.
-- Tipos de dados e conversões.
-- Operadores de comparação e o operador %.
-- if, else if e else.
-- Operador ternário.
-- switch, case, break e default.
+O objetivo é construir uma base sólida em programação, desenvolvimento web, lógica, algoritmos, versionamento e boas práticas, registrando exercícios, projetos e minha evolução como desenvolvedor.
 
-## Dia 3 concluído! 🎉
-Praticado:
-- Laços for e condições de repetição.
-- Funções com parâmetros e return.
-- Acumuladores com soma += i.
-- Sequência de Fibonacci e atualização de variáveis.
+**Data de início:** 10/10/2026
 
-## Dia 4 concluído! 🎉
+## Tecnologias e ferramentas
 
-Praticado:
-- Criação e acesso a arrays usando índices.
-- Propriedade length.
-- Métodos push() e pop().
-- Iteração com for.
-- Acumulação de valores e cálculo de média.
-- Busca do maior valor em um array.
-- Contagem de frequência com um contador.
-- Criação e atualização de objetos.
-- Acesso a propriedades com notação de ponto.
-- Arrays contendo objetos.
-- Filtragem de dados com filter().
-- Transformação de dados com map().
-- Encadeamento de métodos (method chaining).
+- JavaScript
+- Node.js
+- HTML5
+- Git e GitHub
+- Visual Studio Code
+- Futuramente: PHP, Laravel, SQL e outras tecnologias Full Stack.
 
-## 🧮 Projeto: Calculadora CLI - Desafio_1
+---
+
+# Progresso dos estudos
+
+## Dia 1 — Configuração do ambiente 🎉
+
+**Status:** Concluído.
+
+- [x] Instalação e configuração do Node.js e npm.
+- [x] Instalação do Git e configuração da identidade.
+- [x] Configuração de SSH para o GitHub.
+- [x] Criação da pasta do projeto e abertura no VS Code.
+- [x] Inicialização do repositório Git.
+- [x] Primeiro commit.
+- [x] Renomeação da branch principal para `main`.
+- [x] Configuração do repositório remoto `origin`.
+- [x] Primeiro push realizado com sucesso.
+
+## Dia 2 — Fundamentos de JavaScript 🎉
+
+**Status:** Concluído.
+
+- [x] Variáveis com `const` e `let`.
+- [x] Tipos de dados e conversões.
+- [x] Operadores de comparação e operador `%`.
+- [x] Estruturas condicionais `if`, `else if` e `else`.
+- [x] Operador ternário.
+- [x] Estrutura `switch`, `case`, `break` e `default`.
+
+## Dia 3 — Laços e funções 🎉
+
+**Status:** Concluído.
+
+- [x] Laços `for` e condições de repetição.
+- [x] Funções com parâmetros e `return`.
+- [x] Acumuladores com `soma += i`.
+- [x] Sequência de Fibonacci.
+- [x] Atualização de variáveis durante a execução dos algoritmos.
+
+## Dia 4 — Arrays e objetos 🎉
+
+**Status:** Concluído.
+
+- [x] Criação e acesso a arrays usando índices.
+- [x] Propriedade `length`.
+- [x] Métodos `push()` e `pop()`.
+- [x] Iteração com `for`.
+- [x] Acumulação de valores e cálculo de média.
+- [x] Busca do maior valor em um array.
+- [x] Contagem de frequência com contadores.
+- [x] Criação e atualização de objetos.
+- [x] Acesso a propriedades com notação de ponto.
+- [x] Arrays contendo objetos.
+- [x] Filtragem com `filter()`.
+- [x] Transformação com `map()`.
+- [x] Encadeamento de métodos (*method chaining*).
+
+---
+
+# Projetos práticos
+
+## Desafio 1 — Calculadora CLI
+
+**Status:** Concluído.
 
 ### Objetivo
+
 Desenvolver uma calculadora executada no terminal utilizando JavaScript e Node.js, com interação por perguntas e respostas.
 
 ### Funcionalidades
+
 - Solicita ao usuário a operação matemática desejada.
 - Recebe dois números pelo terminal.
-- Realiza as operações de:
-  - Adição (`+`)
-  - Subtração (`-`)
-  - Multiplicação (`*`)
-  - Divisão (`/`)
+- Realiza adição, subtração, multiplicação e divisão.
 - Valida entradas numéricas.
 - Rejeita entradas vazias ou contendo apenas espaços.
 - Impede a divisão por zero.
@@ -71,34 +104,30 @@ Desenvolver uma calculadora executada no terminal utilizando JavaScript e Node.j
 - Encerra a interface do terminal após o processamento.
 
 ### Tecnologias utilizadas
+
 - JavaScript
 - Node.js
 - Módulo nativo `readline`
 
 ### Como executar
 
-**Pré-requisito:** ter o Node.js instalado.
+Pré-requisito: Node.js instalado.
 
-1. Abra o terminal na pasta do projeto.
-2. Execute o comando:
-
-   ```bash
-   node .\Desafio_1\calculadora.js
-   ```
-
-3. Escolha a operação matemática solicitada.
-4. Digite o primeiro e o segundo número.
-5. Confira o resultado no terminal.
+```bash
+node .\Desafio_1\calculadora.js
+```
 
 ### Testes realizados
-- Soma: `10 + 5 = 15`
-- Subtração: `-5 - 2 = -7`
+
+- Soma: `10 + 5 = 15`.
+- Subtração: `-5 - 2 = -7`.
 - Validação de entrada não numérica.
 - Rejeição de entradas vazias ou com espaços.
 - Tratamento de divisão por zero.
 - Tratamento de operação inválida.
 
 ### Aprendizados
+
 - Importação de módulos nativos com `require()`.
 - Entrada e saída de dados com `readline`.
 - Uso de callbacks e arrow functions.
@@ -107,133 +136,96 @@ Desenvolver uma calculadora executada no terminal utilizando JavaScript e Node.j
 - Validação de dados e tratamento de erros.
 - Encerramento da interface com `rl.close()`.
 
+## Desafio 2 — Todo List em Node.js
 
-# Desafio 2 — Todo List em Node.js
+**Status:** Concluído e testado.
 
-## 📌 Sobre o projeto
+### Sobre o projeto
 
-Este projeto consiste em uma aplicação de linha de comando (CLI) desenvolvida com JavaScript e Node.js para gerenciar uma lista de tarefas.
+Aplicação de linha de comando (CLI) desenvolvida com JavaScript e Node.js para gerenciar uma lista de tarefas.
 
-O objetivo foi praticar conceitos fundamentais da linguagem JavaScript, manipulação de arquivos, persistência de dados e tratamento de erros, desenvolvendo uma aplicação funcional sem utilizar frameworks externos.
+O objetivo foi praticar conceitos fundamentais da linguagem, manipulação de arquivos, persistência de dados e tratamento de erros, desenvolvendo uma aplicação funcional sem frameworks externos.
 
-## 🚀 Funcionalidades
+### Funcionalidades
 
-- **Adicionar tarefas:** permite cadastrar tarefas com validação para impedir entradas vazias.
-- **Listar tarefas:** exibe as tarefas cadastradas, seus status e um resumo com o total de tarefas concluídas e pendentes.
-- **Alternar status:** permite marcar uma tarefa como concluída ou devolvê-la ao estado pendente.
-- **Remover tarefas:** exclui uma tarefa selecionada pelo usuário.
-- **Persistência de dados:** salva as tarefas em um arquivo JSON, mantendo os dados entre execuções.
-- **Validação de entradas:** verifica se os dados digitados são válidos e se o número informado corresponde a uma tarefa existente.
-- **Tratamento de erros:** utiliza `try/catch` para lidar com problemas na leitura e gravação dos arquivos.
-- **Recuperação de dados:** trata arquivos JSON inválidos durante o carregamento.
-- **Rollback:** restaura o estado anterior da lista em memória quando determinadas operações não conseguem ser salvas.
+- **Adicionar tarefas:** cadastro com validação para impedir entradas vazias.
+- **Listar tarefas:** exibição das tarefas, seus status e resumo de pendências.
+- **Alternar status:** permite concluir ou reabrir uma tarefa.
+- **Remover tarefas:** exclui uma tarefa selecionada.
+- **Persistência de dados:** salva as tarefas em arquivo JSON.
+- **Validação de entradas:** verifica dados e identificadores informados.
+- **Tratamento de erros:** utiliza `try/catch` na leitura e gravação.
+- **Recuperação de dados:** trata arquivos JSON inválidos.
+- **Rollback:** restaura o estado anterior em memória quando determinadas operações não conseguem ser salvas.
 
-## 🛠️ Tecnologias utilizadas
+### Tecnologias utilizadas
 
 - JavaScript
 - Node.js
-- Módulo `readline` — interação com o usuário pelo terminal.
-- Módulo `fs` — leitura e gravação de arquivos.
-- Módulo `path` — manipulação de caminhos de arquivos.
-- JSON — armazenamento dos dados das tarefas.
+- `readline` — interação pelo terminal.
+- `fs` — leitura e gravação de arquivos.
+- `path` — manipulação de caminhos.
+- JSON — armazenamento dos dados.
 
-## 📚 Conceitos praticados
-
-Durante o desenvolvimento, foram praticados os seguintes conceitos:
+### Conceitos praticados
 
 - Variáveis, constantes e tipos de dados.
-- Condicionais (`if/else` e `switch/case`).
-- Funções e valores de retorno (`return`).
+- Condicionais `if/else` e `switch/case`.
+- Funções e valores de retorno.
 - Arrays e objetos.
 - Métodos `push()`, `splice()`, `forEach()`, `filter()` e `map()`.
 - Operadores lógicos e booleanos.
-- Validação de entradas com `Number()` e `Number.isInteger()`.
+- Validação com `Number()` e `Number.isInteger()`.
 - Manipulação de strings com `trim()`.
 - Leitura e escrita de arquivos com `fs`.
-- Serialização e análise de JSON com `JSON.stringify()` e `JSON.parse()`.
+- Serialização e análise de JSON.
 - Tratamento de exceções com `try/catch`.
-- Escopo de variáveis.
 - Persistência de dados e recuperação após erros.
-- Versionamento de código com Git e GitHub.
+- Versionamento com Git e GitHub.
 
-## ▶️ Como executar
-
-**Pré-requisito:** ter o Node.js instalado.
-
-1. Clone o repositório ou acesse a pasta do projeto.
-2. Entre na pasta `Desafio_2`.
-3. Execute o programa pelo terminal:
+### Como executar
 
 ```bash
+cd Desafio_2
 node todo.js
 ```
 
-As tarefas serão armazenadas no arquivo `tarefas.json`, criado na pasta do projeto quando ocorrer o primeiro salvamento bem-sucedido.
-
-## 🎯 Objetivo de aprendizagem
-
-Este desafio faz parte da minha jornada de aprendizado em desenvolvimento Full Stack, com foco na construção de uma base sólida em JavaScript e Node.js antes de avançar para tecnologias e frameworks mais complexos.
-
-O projeto foi desenvolvido de forma incremental, implementando e testando cada funcionalidade, investigando erros e aprimorando a organização e a confiabilidade do código.
+As tarefas são armazenadas no arquivo `tarefas.json`, criado na pasta do projeto durante o primeiro salvamento bem-sucedido.
 
 ---
 
-**Projeto:** Full Stack Journey  
-**Desafio:** 2 — Todo List em Node.js  
-**Status:** Concluído e testado.
+# Fundamentos da Web e algoritmos
 
+## Dia 7 — Fundamentos da Web 🎉
 
-## Dia 7 - concluído! 🎉
+**Status:** Concluído.
 
-Projeto prático
+### Projeto prático
 
 Criação de uma página HTML para cadastro de alunos de uma academia.
 
-Arquivos:
+**Arquivos:**
 
-Dia_7/index.html
+- `Dia_7/index.html`
+- `Dia_7/script.js`
 
-Dia_7/script.js
+### Aprendizados
 
-O que aprendi na prática
+- Estrutura de uma página HTML.
+- Conexão de arquivo JavaScript externo.
+- Captura do envio de formulários.
+- Prevenção do comportamento padrão do navegador.
+- Leitura e validação de campos de texto.
+- Exibição dinâmica de mensagens.
+- Depuração de problemas relacionados à ordem de carregamento do script.
 
-Criar a estrutura de uma página HTML.
+**Observação:** o cadastro é uma simulação no navegador. Os dados ainda não são armazenados em banco de dados.
 
-Conectar um arquivo JavaScript externo à página.
+## Dia 7+ — Strings e manipulação de texto 🎉
 
-Capturar o envio de um formulário.
+**Status:** Concluído.
 
-Impedir o comportamento padrão do navegador.
-
-Ler e validar o valor de um campo de texto.
-
-Exibir mensagens dinamicamente na página.
-
-Identificar e corrigir um problema causado pela ordem de carregamento do script.
-
-Próximos passos
-
-Aprimorar a validação do formulário.
-
-Estudar CSS para melhorar a aparência da página.
-
-Aprender a enviar dados para um servidor e persistir cadastros em um banco de dados.
-
-Observação: o cadastro desenvolvido nesta etapa é apenas uma simulação no navegador; os dados ainda não são armazenados em um banco de dados.
-
-## Dia 7+ — Strings e manipulação de texto
-
-**Trilha:** Fundamentos da Web & Programação — Semana 2  
-**Tema:** Lógica II, algoritmos e resolução de problemas  
-**Status:** Concluído
-
-### Objetivos
-- [x] Praticar operações comuns de manipulação de strings.
-- [x] Formatar nomes com maiúsculas e minúsculas.
-- [x] Inverter uma string.
-- [x] Localizar e contar vogais.
-- [x] Substituir palavras em um texto.
-- [x] Praticar depuração e correção de erros.
+**Trilha:** Fundamentos da Web & Programação — Semana 2.
 
 ### Métodos estudados
 
@@ -247,58 +239,39 @@ Observação: o cadastro desenvolvido nesta etapa é apenas uma simulação no n
 | `trim()` | Remove espaços das extremidades. |
 | `toUpperCase()` | Converte letras para maiúsculas. |
 | `toLowerCase()` | Converte letras para minúsculas. |
-| `reverse()` | Inverte a ordem dos elementos de um array. |
-| `match()` | Localiza correspondências usando expressões regulares. |
-| `map()` | Transforma os elementos de um array. |
+| `reverse()` | Inverte elementos de um array. |
+| `match()` | Localiza correspondências com expressões regulares. |
+| `map()` | Transforma elementos de um array. |
 
 ### Exercícios realizados
 
-- **Formatação de nomes:** transformar `mARIA da silva` em `Maria Da Silva`, removendo espaços extras.
-- **Inversão de string:** transformar `fullstack` em `kcatslluf`.
-- **Busca de vogais:** localizar vogais usando `match()` e praticar verificações com `includes()`.
-- **Busca sem diferenciar maiúsculas e minúsculas:** combinar `toLowerCase()` com `includes()`.
-- **Substituição de texto:** transformar `A academia é pequena` em `A academia é moderna`.
+- Formatação de nomes e remoção de espaços extras.
+- Inversão de strings.
+- Busca e contagem de vogais.
+- Busca sem diferenciar maiúsculas e minúsculas.
+- Substituição de palavras em textos.
 
 ### Conceitos aprendidos
-- Encadear métodos para transformar strings.
-- Separar palavras com `split()` e reuni-las com `join()`.
-- Usar expressões regulares, como `/\s+/`, para separar palavras por um ou mais espaços.
-- Entender que strings são imutáveis e que seus métodos retornam novos valores.
-- Identificar erros como `TypeError` e corrigir a causa em vez de apenas alterar o resultado.
-- Diferenciar os comportamentos de `split()` e `join()`.
 
-### Comandos praticados
+- Encadeamento de métodos.
+- Separação de palavras com `split()` e `join()`.
+- Expressões regulares, como `/\s+/`.
+- Imutabilidade de strings.
+- Identificação e correção de erros como `TypeError`.
+- Diferenças entre `split()` e `join()`.
 
-Executar JavaScript diretamente no terminal:
+## Dia 8 — Algoritmos básicos 🎉
 
-```bash
-node -e "console.log('dev fullstack'.split(' ').map(w=>w[0].toUpperCase()+w.slice(1)).join(' '))"
-```
+**Status:** Concluído.
 
-**Resultado esperado:**
+**Trilha:** Fundamentos da Web & Programação — Semana 2.
 
-```text
-Dev Fullstack
-```
-
-### Próximos passos
-- Continuar praticando strings e arrays.
-- Aplicar os métodos em validações de formulários.
-- Integrar os conhecimentos de JavaScript com HTML e futuramente APIs.
-
-## Dia 8 — Algoritmos básicos
-
-**Trilha:** Fundamentos da Web & Programação  
-**Semana:** 2  
-**Tema:** Lógica II + algoritmos e resolução de problemas  
-**Status:** Em andamento
-
-### Objetivos do dia
+### Objetivos
 
 - Implementar busca binária.
-- Implementar o algoritmo de ordenação Bubble Sort.
-- Comparar o Bubble Sort com o método `.sort()` do JavaScript.
-- Compreender, de forma introdutória, a notação Big O.
+- Implementar Bubble Sort.
+- Comparar Bubble Sort com o método `.sort()` do JavaScript.
+- Compreender a notação Big O.
 
 ### Conceitos estudados
 
@@ -306,56 +279,41 @@ Dev Fullstack
 |---|---|---|
 | Busca linear | O(n) | Percorre os elementos até encontrar o alvo. |
 | Busca binária | O(log n) | Divide as possibilidades pela metade; exige lista ordenada. |
-| Bubble Sort | O(n²) | Compara elementos vizinhos e troca suas posições quando necessário. |
+| Bubble Sort | O(n²) | Compara elementos vizinhos e troca suas posições. |
 | `.sort()` | Depende da implementação | Método nativo do JavaScript para ordenar elementos. |
-| Big O | — | Notação utilizada para descrever como o custo de um algoritmo cresce com a entrada. |
+| Big O | — | Descreve como o custo de um algoritmo cresce com a entrada. |
 
 ### Exercícios realizados
 
 - [x] Implementação da busca binária em `Dia_8/busca.js`.
-- [x] Utilização dos limites `inicio` e `fim` para reduzir o espaço de busca.
-- [x] Identificação do índice retornado pela busca e tratamento do retorno `-1`.
-- [x] Construção da lógica do Bubble Sort com dois laços `for`.
-- [x] Comparação de elementos vizinhos utilizando `j` e `j + 1`.
+- [x] Utilização dos limites `inicio` e `fim`.
+- [x] Tratamento do retorno `-1`.
+- [x] Implementação do Bubble Sort com dois laços `for`.
+- [x] Comparação de elementos vizinhos.
 - [x] Troca de elementos com desestruturação de arrays.
-- [x] Comparação conceitual entre Bubble Sort e `.sort((a, b) => a - b)`.
-- [x] Estudo introdutório de O(n), O(log n) e O(n²).
+- [x] Comparação entre Bubble Sort e `.sort((a, b) => a - b)`.
+- [x] Estudo de O(n), O(log n) e O(n²).
 
-### Comandos utilizados
-
-Executar a busca binária:
+### Como executar
 
 ```bash
 node Dia_8/busca.js
-```
-
-Executar a ordenação, após salvar o exercício:
-
-```bash
 node Dia_8/bubblesort.js
 ```
 
 ### Aprendizados
 
-- A busca binária utiliza a estratégia de dividir para conquistar.
-- Uma lista precisa estar ordenada para que a busca binária descarte metades com segurança.
-- O Bubble Sort organiza elementos por meio de comparações e trocas entre vizinhos.
-- O `.sort()` pode ordenar números numericamente com um comparador, como `(a, b) => a - b`.
-- A complexidade ajuda a avaliar como o trabalho de um algoritmo aumenta conforme a quantidade de dados cresce.
+- Busca binária utiliza a estratégia de dividir para conquistar.
+- A lista precisa estar ordenada para a busca binária funcionar corretamente.
+- Bubble Sort organiza elementos por comparações e trocas entre vizinhos.
+- `.sort()` pode ordenar números com um comparador numérico.
+- Big O ajuda a avaliar o crescimento do trabalho de um algoritmo.
 
-### Próximos passos
+## Dia 9 — Recapitulação com mini-desafios 🎉
 
-- Finalizar e testar a função `bubbleSort(lista)`.
-- Garantir que o Bubble Sort trabalhe com uma cópia, preservando a lista original.
-- Comparar os resultados dos dois métodos de ordenação.
-- Revisar os conceitos antes de avançar para o próximo dia.
+**Status:** Recapitulação concluída.
 
-
-## Dia 9 — Recapitulação com mini-desafios
-
-**Semana 2:** Lógica II + algoritmos e resolução de problemas
-
-**Meta:** Consolidar os conhecimentos sem consultar soluções anteriores.
+**Trilha:** Lógica II + algoritmos e resolução de problemas.
 
 ### Exercícios realizados
 
@@ -368,9 +326,9 @@ node Dia_8/bubblesort.js
 ### Conceitos revisados
 
 - Funções e parâmetros.
-- Laços de repetição (`for`).
-- Estruturas condicionais (`if/else`).
-- Operador módulo (`%`).
+- Laços de repetição.
+- Estruturas condicionais.
+- Operador módulo.
 - Manipulação de arrays.
 - Métodos `includes()` e `push()`.
 - Objetos e propriedades dinâmicas.
@@ -382,6 +340,73 @@ node Dia_8/bubblesort.js
 - [ ] Resolver o exercício `two-fer`.
 - [ ] Resolver um segundo desafio da trilha JavaScript.
 
-**Observação:** Atividades pendentes devido ao bloqueio da CLI do Exercism pelo Windows Device Guard.
+**Observação:** atividades externas pendentes devido ao bloqueio da CLI do Exercism pelo Windows Device Guard.
 
-**Status:** Recapitulação concluída; desafios externos pendentes.
+## Dia 10 — Git avançado: branches e Pull Requests 🎉
+
+**Status:** Concluído.
+
+### Objetivos
+
+- Trabalhar com branches independentes.
+- Praticar commits e histórico de alterações.
+- Compreender o fluxo de Pull Requests.
+- Revisar alterações antes de incorporá-las à branch principal.
+- Praticar merge e resolução de conflitos.
+
+### Atividades realizadas
+
+- [x] Criação da branch `feature/revisao-dia-10`.
+- [x] Criação do arquivo `Dia_10/git-avancado.js`.
+- [x] Registro das alterações com commit.
+- [x] Envio da branch ao GitHub com `git push`.
+- [x] Criação do primeiro Pull Request.
+- [x] Revisão dos arquivos alterados na aba `Files changed`.
+- [x] Merge do Pull Request na branch `main`.
+- [x] Atualização da branch local com `git pull origin main`.
+- [x] Criação de branches para simular trabalho colaborativo.
+- [x] Simulação de conflito de merge.
+- [x] Resolução manual do conflito.
+- [x] Finalização do merge com commit.
+- [x] Limpeza das branches temporárias.
+
+### Comandos Git praticados
+
+| Comando | Finalidade |
+|---|---|
+| `git switch -c nome` | Cria e acessa uma branch. |
+| `git branch` | Lista as branches locais. |
+| `git status` | Mostra a situação do repositório. |
+| `git add` | Prepara alterações para commit. |
+| `git commit` | Registra alterações no histórico. |
+| `git push -u origin nome` | Envia uma branch ao repositório remoto. |
+| `git pull origin main` | Atualiza a branch com alterações remotas. |
+| `git merge nome` | Incorpora alterações de outra branch. |
+| `git log --graph --oneline --all` | Visualiza o histórico de commits e branches. |
+| `git branch -d nome` | Remove uma branch local já integrada. |
+
+### Aprendizados
+
+- Branches permitem desenvolver funcionalidades isoladamente.
+- Pull Requests permitem revisar alterações antes do merge.
+- O merge integra históricos de desenvolvimento.
+- Conflitos acontecem quando alterações incompatíveis atingem a mesma parte de um arquivo.
+- As marcações `<<<<<<<`, `=======` e `>>>>>>>` identificam as versões em conflito.
+- Após resolver um conflito, é necessário executar `git add` e finalizar o merge com `git commit`.
+
+---
+
+# Objetivo de aprendizagem
+
+Esta jornada tem como objetivo construir uma base sólida em desenvolvimento Full Stack, começando pela lógica de programação e JavaScript, avançando para desenvolvimento web, backend, bancos de dados e frameworks.
+
+O aprendizado é realizado de forma incremental, com exercícios práticos, projetos, testes, depuração e versionamento de código.
+
+**Próximas etapas:** continuar aprofundando JavaScript, desenvolvimento web, APIs, PHP e Laravel.
+
+---
+
+**Projeto:** Full Stack Journey
+**Objetivo:** Full Stack Developer com Laravel
+**Início:** 10/10/2026
+**Status:** Em desenvolvimento contínuo.
