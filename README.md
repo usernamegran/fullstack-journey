@@ -394,6 +394,62 @@ node Dia_8/bubblesort.js
 - As marcações `<<<<<<<`, `=======` e `>>>>>>>` identificam as versões em conflito.
 - Após resolver um conflito, é necessário executar `git add` e finalizar o merge com `git commit`.
 
+
+## Dia 11 — Fundamentos da Web: como a web funciona 🌐
+
+**Status:** Concluído.
+
+### Objetivos
+
+- Compreender a comunicação entre cliente e servidor.
+- Entender o papel do DNS na resolução de domínios.
+- Conhecer os protocolos HTTP e HTTPS.
+- Identificar os principais métodos HTTP.
+- Interpretar códigos de status HTTP.
+- Inspecionar requisições utilizando ferramentas do navegador e terminal.
+
+### Conteúdos estudados
+
+- Cliente (browser) e servidor.
+- DNS e resolução de nomes de domínio para endereços IP.
+- HTTP e HTTPS.
+- Criptografia TLS e segurança na comunicação.
+- Métodos HTTP:
+  - `GET`: solicita um recurso.
+  - `POST`: envia dados ao servidor.
+  - `HEAD`: solicita apenas os cabeçalhos da resposta.
+- Códigos de status HTTP:
+  - `2xx`: sucesso.
+  - `3xx`: redirecionamento.
+  - `4xx`: erros relacionados à requisição.
+  - `5xx`: erros no servidor.
+
+### Atividades realizadas
+
+- [x] Compreensão do fluxo de acesso a um site.
+- [x] Diferenciação entre resolução DNS e resposta HTTP.
+- [x] Análise de situações envolvendo erros `404` e falhas no servidor.
+- [x] Execução de requisições HTTP pelo terminal.
+- [x] Utilização do comando `curl -I`.
+- [x] Interpretação dos cabeçalhos de uma resposta HTTP.
+- [x] Comparação entre requisições `HEAD` e `GET`.
+
+### Comandos e ferramentas praticados
+
+| Comando/ferramenta | Finalidade |
+|---|---|
+| `curl -I URL` | Realiza uma requisição HEAD e exibe os cabeçalhos. |
+| `curl URL` | Realiza uma requisição GET e exibe a resposta. |
+| DevTools — Network | Inspeciona as requisições realizadas pelo navegador. |
+
+### Aprendizados
+
+- O DNS resolve o domínio para um endereço IP, mas não verifica se o servidor está funcionando.
+- O navegador utiliza HTTP ou HTTPS para se comunicar com o servidor.
+- O código `200` indica sucesso e o `404` indica que o recurso solicitado não foi encontrado.
+- O HTTPS utiliza TLS para proteger a comunicação.
+- Uma resposta GET pode conter o HTML da página, mas outros recursos, como CSS, JavaScript e imagens, podem exigir requisições adicionais.
+
 ---
 
 # Objetivo de aprendizagem
