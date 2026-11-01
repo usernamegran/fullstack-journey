@@ -538,6 +538,14 @@ node Dia_8/bubblesort.js
 - Prática interativa com Grid Garden.
 - Exercício prático: layout de página para a Academia.
 
+## Dia 16 — Design responsivo
+
+- Estudo de mobile-first e media queries.
+- Utilização de unidades relativas: rem, %, vw.
+- Adaptação de cards para celular, tablet e desktop.
+- Testes de responsividade com Chrome DevTools.
+- Exercício prático: layout responsivo para a Academia.
+
 ---
 
 # Objetivo de aprendizagem
