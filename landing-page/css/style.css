@@ -1,0 +1,397 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b1120;
+    color: #e2e8f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111827;
+    padding: 20px 8%;
+    border-bottom: 1px solid #1e293b;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav h1 {
+    color: #38bdf8;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Conteúdo principal */
+main {
+    width: min(1100px, 84%);
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+section h2 {
+    color: #38bdf8;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+h3 {
+    color: #7dd3fc;
+}
+
+p {
+    color: #cbd5e1;
+}
+
+/* Listas de habilidades */
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+}
+
+input,
+textarea {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 12px;
+    font: inherit;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+button {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0369a1;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111827;
+    text-align: center;
+    padding: 25px 8%;
+}
+
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Hero */
+#inicio {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 80px 0;
+    border-bottom: none;
+}
+
+#inicio p:first-child {
+    color: #38bdf8;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+}
+
+#inicio h2 {
+    color: #f8fafc;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    line-height: 1.1;
+    max-width: 750px;
+    margin: 0;
+}
+
+#inicio p:nth-of-type(2) {
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+#inicio a {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#inicio a:first-of-type {
+    background-color: #0284c7;
+    color: white;
+}
+
+#inicio a:last-of-type {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+#inicio a:hover {
+    opacity: 0.8;
+}
+.hero-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.hero-botoes a {
+    display: inline-block;
+}
+#inicio h2 span {
+    color: #38bdf8;
+}
+
+/* Animação de entrada da Hero */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#inicio > * {
+    animation: aparecer 0.8s ease forwards;
+}
+
+#inicio > :nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+#inicio > :nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+#inicio > :nth-child(4) {
+    animation-delay: 0.45s;
+}
+@media (prefers-reduced-motion: reduce) {
+    #inicio > * {
+        animation: none;
+    }
+}
+
+/* Grid de habilidades usando Flexbox */
+.habilidades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.habilidade-card {
+    flex: 1 1 280px;
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 25px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.habilidade-card h3 {
+    margin-top: 0;
+    color: #38bdf8;
+}
+
+.habilidade-card ul {
+    padding-left: 20px;
+}
+
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 30px auto 0;
+    padding-left: 35px;
+}
+
+/* Linha vertical */
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background-color: #0284c7;
+}
+
+/* Cada etapa */
+.timeline-item {
+    position: relative;
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+/* Marcador da timeline */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -34px;
+    top: 25px;
+    width: 12px;
+    height: 12px;
+    background-color: #38bdf8;
+    border: 3px solid #0b1120;
+    border-radius: 50%;
+}
+
+/* Efeito ao passar o mouse */
+.timeline-item:hover {
+    transform: translateX(5px);
+    border-color: #38bdf8;
+}
+
+.timeline-item h3 {
+    margin-top: 0;
+}
+
+
+/* Contato */
+.contato-container {
+    max-width: 650px;
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+#contato form {
+    max-width: 100%;
+}
+
+#contato label {
+    color: #cbd5e1;
+    font-weight: bold;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#contato input:focus,
+#contato textarea:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+#contato button {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .contato-container {
+        padding: 20px;
+    }
+}
