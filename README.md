@@ -562,6 +562,14 @@ node Dia_8/bubblesort.js
 - Observação da coerção de tipos ao somar um número com uma string: o resultado é uma concatenação.
 - Comparação entre igualdade não estrita (`==`), que pode converter tipos, e igualdade estrita (`===`), que compara valor e tipo.
 
+## Dia 22 — Condições e operadores em JavaScript
+
+- Uso do operador ternário para escolher uma saída com base em uma condição.
+- Combinação de condições booleanas com o operador lógico `&&`.
+- Uso do operador de coalescência nula (`??`) para definir um valor padrão somente quando o valor é `null` ou `undefined`.
+- Diferença entre `""`, `null` e `undefined` ao utilizar `??`.
+- Acesso seguro a propriedades aninhadas com encadeamento opcional (`?.`), evitando erro quando uma propriedade intermediária não existe.
+
 ---
 
 # Objetivo de aprendizagem
