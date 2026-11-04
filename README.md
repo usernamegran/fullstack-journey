@@ -555,6 +555,13 @@ node Dia_8/bubblesort.js
 - Estilização de imagem com `max-w-full`, `rounded-lg` e `mb-4`.
 - Uso de breakpoints mobile-first com os prefixos `md:` e `lg:`.
 
+## Dia 21 — Tipos de dados e comparação em JavaScript
+
+- Verificação do tipo de valores com o operador `typeof`.
+- Diferença entre valores do tipo `number` e `string`.
+- Observação da coerção de tipos ao somar um número com uma string: o resultado é uma concatenação.
+- Comparação entre igualdade não estrita (`==`), que pode converter tipos, e igualdade estrita (`===`), que compara valor e tipo.
+
 ---
 
 # Objetivo de aprendizagem
