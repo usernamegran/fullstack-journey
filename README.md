@@ -570,6 +570,15 @@ node Dia_8/bubblesort.js
 - Diferença entre `""`, `null` e `undefined` ao utilizar `??`.
 - Acesso seguro a propriedades aninhadas com encadeamento opcional (`?.`), evitando erro quando uma propriedade intermediária não existe.
 
+## Dia 23 — Funções em JavaScript
+
+- Criação de funções com declaração tradicional, expressão de função e arrow function.
+- Uso de parâmetros rest (`...`) para receber vários argumentos em uma função.
+- Soma de valores recebidos pela função com o método `reduce()`.
+- Uso do spread (`...`) para passar os elementos de um array como argumentos individuais.
+- Criação de funções que retornam outras funções, mantendo o valor da potência configurada inicialmente.
+- Uso do operador de exponenciação (`**`).
+
 ---
 
 # Objetivo de aprendizagem
