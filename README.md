@@ -546,6 +546,15 @@ node Dia_8/bubblesort.js
 - Testes de responsividade com Chrome DevTools.
 - Exercício prático: layout responsivo para a Academia.
 
+## Dia 18 — Tailwind CSS
+
+- Introdução ao Tailwind CSS e à estilização com classes utilitárias.
+- Criação de um card usando Flexbox, cores, tipografia, bordas arredondadas e sombra.
+- Aplicação de espaçamento interno com `p-6` e margem com `mx-auto`.
+- Definição de larguras responsivas com `w-full`, `md:w-1/2` e `lg:w-1/3`.
+- Estilização de imagem com `max-w-full`, `rounded-lg` e `mb-4`.
+- Uso de breakpoints mobile-first com os prefixos `md:` e `lg:`.
+
 ---
 
 # Objetivo de aprendizagem
