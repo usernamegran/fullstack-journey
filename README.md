@@ -588,6 +588,13 @@ node Dia_8/bubblesort.js
 - Busca de um produto específico com `find()`.
 - Verificação de condições em elementos do array com `some()` e `every()`.
 
+## Dia 25 — Objetos em JavaScript
+
+- Criação de métodos dentro de objetos e uso de `this` para acessar suas propriedades.
+- Construção de textos com template literals e combinação de elementos de arrays com `join()`.
+- Extração de propriedades de objetos com destructuring.
+- Mesclagem e atualização imutável de objetos com o operador spread (`...`), preservando o objeto original.
+
 ---
 
 # Objetivo de aprendizagem
