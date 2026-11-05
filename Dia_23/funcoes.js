@@ -7,7 +7,7 @@ const subtrair = function(a, b) {
 }
 console.log(subtrair(10, 5));
 
-const somararrow = (a, b) => a + b;
+const somararrow = (a, b = 0) => a + b;
 console.log(somararrow(10, 5));
 
 function somar(...numeros) {
