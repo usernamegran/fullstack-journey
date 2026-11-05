@@ -579,6 +579,15 @@ node Dia_8/bubblesort.js
 - Criação de funções que retornam outras funções, mantendo o valor da potência configurada inicialmente.
 - Uso do operador de exponenciação (`**`).
 
+## Dia 24 — Métodos de array em JavaScript
+
+- Extração de valores de objetos com `map()`, como os nomes dos produtos.
+- Filtragem de produtos com `filter()`, incluindo a seleção de itens em estoque e com preço acima de R$ 50.
+- Encadeamento de `filter()` e `map()` para criar um array apenas com os nomes dos produtos selecionados.
+- Cálculo do valor total do estoque com `reduce()`, multiplicando o preço pela quantidade disponível.
+- Busca de um produto específico com `find()`.
+- Verificação de condições em elementos do array com `some()` e `every()`.
+
 ---
 
 # Objetivo de aprendizagem
